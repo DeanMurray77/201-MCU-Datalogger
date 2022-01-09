@@ -1222,8 +1222,21 @@
     )
   )
 
+  (sheet (at 130.81 109.22) (size 34.29 50.8) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f4442191-4550-4891-b6d8-ca11a3d77e6c)
+    (property "Sheet name" "Connectors" (id 0) (at 130.81 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 130.81 160.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/f4442191-4550-4891-b6d8-ca11a3d77e6c" (page "2"))
   )
 
   (symbol_instances
@@ -1262,6 +1275,18 @@
     )
     (path "/f1ece10d-1b17-4cd3-89ab-1710f2ec1fc7"
       (reference "H?") (unit 1) (value "MountingHole") (footprint "")
+    )
+    (path "/f4442191-4550-4891-b6d8-ca11a3d77e6c/bdb029af-1da8-4b14-94e8-abe7e35af1cc"
+      (reference "J?") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "")
+    )
+    (path "/f4442191-4550-4891-b6d8-ca11a3d77e6c/d7b71f2c-04c1-4709-9591-080d8cb9e557"
+      (reference "J?") (unit 1) (value "Conn_01x04_Male") (footprint "")
+    )
+    (path "/f4442191-4550-4891-b6d8-ca11a3d77e6c/f7ce2f65-abc3-46a7-b3bd-15180bb27308"
+      (reference "J?") (unit 1) (value "Conn_01x09_Male") (footprint "")
+    )
+    (path "/f4442191-4550-4891-b6d8-ca11a3d77e6c/fb02a4cf-7ac5-4a81-8ef5-af57cfa1f15a"
+      (reference "J?") (unit 1) (value "Conn_01x04_Male") (footprint "")
     )
     (path "/21a1c133-f7c0-4c55-bfae-87489f29c903"
       (reference "R?") (unit 1) (value "R") (footprint "")
