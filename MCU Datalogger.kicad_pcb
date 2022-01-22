@@ -452,7 +452,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5a889284-4c9f-49be-8f02-e43e18550914)
-    (at 123.0122 86.0298)
+    (at 121.1834 85.1916)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MCU Datalogger.kicad_sch")
@@ -1155,7 +1155,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a6c7f556-10bb-4a6d-b61b-a732ec6fa5cc)
-    (at 118.5926 86.106)
+    (at 117.4496 85.1916)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MCU Datalogger.kicad_sch")
@@ -1239,7 +1239,7 @@
 
   (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp c5c5f9f8-c332-47c0-a678-3f8aedfc4b7c)
-    (at 111.4552 89.6366)
+    (at 110.5916 87.122)
     (descr "SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "MCU Datalogger.kicad_sch")
@@ -1657,5 +1657,11 @@
   )
 
   (gr_rect (start 100.711 84.074) (end 150.749 114.3) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 6873a01f-39d3-47ae-a47c-76dc6d3ac34d))
+
+  (segment (start 120.2334 85.1916) (end 118.3996 85.1916) (width 0.35) (layer "F.Cu") (net 2) (tstamp 458472d9-6c47-4219-bbee-951714bedb46))
+  (segment (start 117.1042 86.487) (end 118.3996 85.1916) (width 0.35) (layer "F.Cu") (net 2) (tstamp 5ee6ccfe-a6e3-449b-8ead-9401043d1f5c))
+  (segment (start 114.1916 86.487) (end 117.1042 86.487) (width 0.35) (layer "F.Cu") (net 2) (tstamp 90b4b4a5-5273-4124-9b05-71fd941e96d2))
+  (segment (start 116.4742 85.217) (end 116.4996 85.1916) (width 0.35) (layer "F.Cu") (net 3) (tstamp 4e715f6d-4bfd-4519-8b97-6bc6b0127a8c))
+  (segment (start 114.1916 85.217) (end 116.4742 85.217) (width 0.35) (layer "F.Cu") (net 3) (tstamp cd407552-e7d0-48fc-b766-4186e5be5bc9))
 
 )
